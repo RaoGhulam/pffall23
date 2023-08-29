@@ -3,5 +3,5 @@ Q2) ![image](https://github.com/RaoGhulam/pffall23/assets/142868044/18d60d13-42f
 Q3) ![image](https://github.com/RaoGhulam/pffall23/assets/142868044/e25f52ee-5816-4e75-b668-867ce7ac584d)
 Q4) ![image](https://github.com/RaoGhulam/pffall23/assets/142868044/2d1ba7f9-d0ea-4e7a-aa9e-a350eb0fa9bb)
 Q5) ![image](https://github.com/RaoGhulam/pffall23/assets/142868044/29b44182-7f2f-4602-9ace-1bfd554574d5)
-
+Q6) ![image](https://github.com/RaoGhulam/pffall23/assets/142868044/4552ac4c-daf6-4f35-879c-d53bf9d4a8c9)
 Q7) ![image](https://github.com/RaoGhulam/pffall23/assets/142868044/6e645b04-b7d9-4fd1-9a36-9226ade23747)
