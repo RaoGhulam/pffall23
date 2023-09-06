@@ -1,22 +1,13 @@
 # include <stdio.h>
-# include <math.h>
+
 int main() {
+            int original_price = 1500;
+            int discount_percentage = 0.20;
+            int sale_price = 0;
 
-           int base=0;
-           int perp=0;
-           float hyp=0;
- 
-           printf("--Finding Hypotenus--\n");
-           printf("Enter base: ");
-           scanf("%d",&base);
-           printf("Enter perpendicular: ");
-           scanf("%d",&perp);
-          
-           printf("--Calculatig Hypotenus--");
+            printf("Calculate the sale price \n");
 
-           base = base * base;
-           perp = perp * perp;
-           hyp = sqrt(base + perp);
-    
-           printf("Hypotenus: %f", hyp);
+            sale_price = ((original_price * (1 - discount_percentage)));
+            printf("Sale price is: %d", sale_price);
 }
+            
