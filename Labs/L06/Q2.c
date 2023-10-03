@@ -13,16 +13,15 @@ int main(){
 	int sum=0;
 	
 	while(a<10000){
+		printf("%d\n",a);
 		temp=b;
 		b=b+a;
 		a=temp;
-		if(a<=10000){
-			printf("%d\n",a);
-					if ((a%3==0) || (a%5==0) || (a%7 ==0)){
-						sum = sum + a;
-					}
+		if ((a%3==0) || (a%5==0) || (a%7 ==0)){
+			sum = sum + a;
+			}
 		}
-	}
 	printf("Sum = %d",sum);
+	
 	return 0;
 }
