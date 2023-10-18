@@ -1,39 +1,41 @@
 /*
 Programmer : Rao GHulam Mohi Uddin
 Disc : Lab 7, Q4
-Date : 10/10/2023
+Date : 17/10/2023
 */
 
-
-
-# include <stdio.h>
+#include <stdio.h>
 
 int main() {
-		int matrix[2][2];
-		int  i=0;
+    int matrix[3][3];
 
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+	    printf("Input the value: ");
+            scanf("%d", &matrix[i][j]);
+        }
+    }
+    
+    int symmetric = 1; 
 
-		printf("Input the elements\n");
-		
-		while(i<2){
-				int j=0;
-				while (j<2) {
-						scanf("%d",&matrix[i][j]);
-						++j;
-				}
-				++i;
-		}
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            if (matrix[i][j] != matrix[j][i]) {
+                symmetric = 0;
+                break;
+            }
+        }
+        if (!symmetric) {
+            break;
+        }
+    }
 
-		// checking symmetry
+    if (symmetric) {
+        printf("Symmetric");
+    } 
+    else {
+        printf("Not symmetric");
+    }
 
-		for(i=0; i<2; ++i){
-				for(int j=0; j<2; ++j) {
-					if (matrix[i][j] != matrix[j][i]){
-						printf("Not symmetric\n");
-						return 0;
-					}
-				}
-		}
-
-		printf("Symmetric\n");
+    return 0;
 }
