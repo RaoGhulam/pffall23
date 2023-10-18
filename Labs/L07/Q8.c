@@ -1,3 +1,9 @@
+/*
+Programmer: Rao Ghulam Mohi Uddin
+Description: Sorting array
+Date: 17/10/2023
+*/
+
 #include <stdio.h>
 
 #define MAX_SIZE 100
