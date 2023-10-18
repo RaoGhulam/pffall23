@@ -1,3 +1,9 @@
+/*
+Programmer: Rao Ghulam Mohi Uddin
+Description: Frequency of elements in array
+Date: 17/10/2023
+*/
+
 # include <stdio.h>
 
 int main(){
