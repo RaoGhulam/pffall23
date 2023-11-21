@@ -1,3 +1,9 @@
+/*
+Programmer: Rao GHulam Mohiuddin
+Date: 20/11/2023
+Desc: Universal function to print different types of array
+*/
+
 # include <stdio.h>
 
 void printArray(void *arr, int size, char type);
