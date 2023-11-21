@@ -1,3 +1,9 @@
+/*
+Programmer: Rao GHulam Mohiuddin
+Date: 20/11/2023
+Desc: Dynamically allocate memory to 2D array filled with prime numbers
+*/
+
 # include <stdio.h>
 # include <stdlib.h>
 
